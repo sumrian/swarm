@@ -1,0 +1,491 @@
+{
+  "scope": "Packaging tests only; no live model/server execution",
+  "results": [
+    {
+      "version": "0.2.138",
+      "tarballSha256": "1efde99869a985f1df0de24aa0a7205f64829f4bb016bf7c9363458b43abdc1e",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.138",
+        "commit": "6b540ffa63d6",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.139",
+      "tarballSha256": "d263255112f9bdad488291d92cf950b81f83b61c7520087e4431e83a88d386aa",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.139",
+        "commit": "83f29962ae3d",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.140",
+      "tarballSha256": "55b78602a67db1ccf2acc0ada2d69fb763690e6a9e13d1be1cfe0868d0c167bc",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.140",
+        "commit": "42748c7bb68f",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.141",
+      "tarballSha256": "f80b0afa5b4e1e3627719f60ef7a90292c8886645129897e70b77222083391c8",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.141",
+        "commit": "92aa8a882e8f",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.142",
+      "tarballSha256": "9b6f13d346c0202a13c5462c255e4806cdbdf44bdd38740e85de3efc21b0b740",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.142",
+        "commit": "34a4a778bd18",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.143",
+      "tarballSha256": "bacc7990ca548be7fe4fa100f53518f9c7ff743abb5df369ef4377856c783508",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.143",
+        "commit": "737607b8b662",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.144",
+      "tarballSha256": "af6253420cd44aa401087dc9de97b02c91cd00dc575e00cadbebcd3425fa233b",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.144",
+        "commit": "e105247c9d9a",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.145",
+      "tarballSha256": "54361cab3378e78f54784c7345d535c904d2e58a6cfad9264353ad70980cb72e",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.145",
+        "commit": "b5bf1cc549fe",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.146",
+      "tarballSha256": "31de2a410aef5cd83deab03991fe30fc9769566e22c3a93a414e035a6d06d17b",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.146",
+        "commit": "28ae46b545b9",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.147",
+      "tarballSha256": "dcb2422edb71d220041c07ffe3f68f131f24000400879080dfc7b3b4b2a8e424",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.147",
+        "commit": "9acaa671a344",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.148",
+      "tarballSha256": "4ce656900d9f40d4606d171a98918f57e818b449d8e88f6f234026c3e48e3936",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.148",
+        "commit": "f2d9c47cf5cd",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.149",
+      "tarballSha256": "c658689c18b669c997ff594eef0de592549fd924f7e311f18295ac19d621c160",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.149",
+        "commit": "cad34fde13db",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.150",
+      "tarballSha256": "a1cc6a50346caec3766cea8a94a47fad582d270e3dc8c347125eae4e0876e198",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.150",
+        "commit": "b957c9cbed9d",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.151",
+      "tarballSha256": "f445c3ba34a6a49230945f41df54a195b6664538d43080ad72eb7686c621563d",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.151",
+        "commit": "21da66695cc7",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.152",
+      "tarballSha256": "306b1c1caf9b9b1e072ab454c8fe2f7a15226b54c34ee059dcb9154ac5599d81",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.152",
+        "commit": "de3e59d8dda9",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.153",
+      "tarballSha256": "ae1ab02ca3c3696541afd9e7f3e1df4e0b2e9c94beafca987ca5f8e755752ac8",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.153",
+        "commit": "d870967cb2e0",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.154",
+      "tarballSha256": "118624de13729bb534234735149ac87e33e4d3a6830fa3826ed80a2642c43f79",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.154",
+        "commit": "18e3383b6c87",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.155",
+      "tarballSha256": "2bf4eb6c5c83cf3073af0b2721dc212352fedfc912452f54d3b8df151c09243d",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.155",
+        "commit": "c9b7a0965454",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.156",
+      "tarballSha256": "d584da2d1ec70cda78d2fb8eac2f42233dd435f3d1f385ae356d2f6b46d7ce06",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.156",
+        "commit": "7c95ffd03b1c",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.157",
+      "tarballSha256": "0f3347ffb653a35c84e9f2956b91d4ed81de1d1f41598404bc567b20a10fab17",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.157",
+        "commit": "51f6d2c7b76f",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.158",
+      "tarballSha256": "9db1417e15141d2122c0572a5abe4f961d79c0c9514d71b9c7b090cb1ed859b2",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.158",
+        "commit": "f4a6baf95f49",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.159",
+      "tarballSha256": "ffefb4f7c369ee6d76f62f007ec46d7994e895a63f8259c58b31bb9a3aa96899",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.159",
+        "commit": "9cfad2c03cd9",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.160",
+      "tarballSha256": "dc2cc0533902d677672d746c25e67af4a959f287b013521976d12db9855bb783",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.160",
+        "commit": "1b8e3e3cb5be",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.161",
+      "tarballSha256": "8ee76ad61d31e412710ba6e65fd01703df9d96dc2bb21f9a8edb71599d4aad2b",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.161",
+        "commit": "90f063048c29",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.162",
+      "tarballSha256": "fa6e00fcbf303cce3781a0afbc0b5a5158bf826e94dbca002aad71ecb7506119",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.162",
+        "commit": "97cb22197c89",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.163",
+      "tarballSha256": "a61624b796f07b61173ffa6e3759d9e01eb064ff26614ff3546f6a6507bdeeda",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.163",
+        "commit": "7c8d49bce59e",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    },
+    {
+      "version": "0.2.152-sy.1",
+      "tarballSha256": "e9950fe48716aed50773886a48746b83d1b93edc2b464b0dbf85f2202b5616dc",
+      "archiveAndNativeHashes": "passed",
+      "offlineLocalInstall": "passed",
+      "installedSwarmHelp": "passed",
+      "nativeSelfCheck": {
+        "package": "autowonder",
+        "version": "0.2.152",
+        "commit": "de3e59d8dda9",
+        "goos": "darwin",
+        "goarch": "arm64"
+      },
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "node": "v22.22.1",
+      "npm": "10.9.4",
+      "scope": "Packaging, unchanged-file hashes, offline install, CLI help, local native self-check. No provider login, real model calls or live server/task execution."
+    }
+  ]
+}

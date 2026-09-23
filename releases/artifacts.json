@@ -1,0 +1,248 @@
+{
+  "package": "@sumrian/swarm",
+  "releases": [
+    {
+      "version": "0.2.138",
+      "sourceSha256": "2fe2850f4305278ca7c7838451aa7ec4635d2f72c91c59baa0709c9f09923851",
+      "tarball": "dist/0.2.138/sumrian-swarm-0.2.138.tgz",
+      "sha256": "1efde99869a985f1df0de24aa0a7205f64829f4bb016bf7c9363458b43abdc1e",
+      "integrity": "sha512-W4dxfYlbccqwCBd+8T3TgKqVkLb7uEf7BHtsic83ucVO5PaFpJQlJUWmsLtIllruZ6W1OYiVbk6R9tKdaK38/g==",
+      "fileCount": 16,
+      "bytes": 25286190
+    },
+    {
+      "version": "0.2.139",
+      "sourceSha256": "b90ece930f3cf412d2942dffdc56801c17c21b353f96ae55e6239ca06a3e891f",
+      "tarball": "dist/0.2.139/sumrian-swarm-0.2.139.tgz",
+      "sha256": "d263255112f9bdad488291d92cf950b81f83b61c7520087e4431e83a88d386aa",
+      "integrity": "sha512-ig5rwVVOW66oH+We4beqfKEwbOI8qcseJX65LVzPmnlHW8/IUVhyuM8hoP+YZC1k7Ln985PzA/2Pu2+IWVck6g==",
+      "fileCount": 16,
+      "bytes": 26277750
+    },
+    {
+      "version": "0.2.140",
+      "sourceSha256": "9fdedc38c24875a2dbe7a758a72974476e4dc3ca3beb09f40b844dcaf0077656",
+      "tarball": "dist/0.2.140/sumrian-swarm-0.2.140.tgz",
+      "sha256": "55b78602a67db1ccf2acc0ada2d69fb763690e6a9e13d1be1cfe0868d0c167bc",
+      "integrity": "sha512-artN+eRP8M0Q/4x9P9mXHm5WHRSdqcZRRqqHCB5i3qn4yJQCJnKRQG2VCS9TkmAK/sZcfWJPawdj05U6qkesrQ==",
+      "fileCount": 17,
+      "bytes": 26300783
+    },
+    {
+      "version": "0.2.141",
+      "sourceSha256": "d9c0f6cb9500b64f11abef2bda8728be860494be587448f53f3fa2b0ca21bd58",
+      "tarball": "dist/0.2.141/sumrian-swarm-0.2.141.tgz",
+      "sha256": "f80b0afa5b4e1e3627719f60ef7a90292c8886645129897e70b77222083391c8",
+      "integrity": "sha512-0UeQBX6251LQRO7CqC4C9isDeGYAuHYC/34MIersK+gA2oe2tjpKbhCrycfSWGuzc84dPyAY3pscGv2RKYYOtw==",
+      "fileCount": 17,
+      "bytes": 26302089
+    },
+    {
+      "version": "0.2.142",
+      "sourceSha256": "f41a6738da042cbff4d40bb4e4c3e82ff04b8564bb290326c7496afb096c7dae",
+      "tarball": "dist/0.2.142/sumrian-swarm-0.2.142.tgz",
+      "sha256": "9b6f13d346c0202a13c5462c255e4806cdbdf44bdd38740e85de3efc21b0b740",
+      "integrity": "sha512-FJ9sguG8iRj9iFRi2TZ4DQouC8RxRjiRw92arwOtkFceqsxzXFBBCIWBUHg9UVB3YICncgRPB3dSgGmGEBPO1w==",
+      "fileCount": 17,
+      "bytes": 26319176
+    },
+    {
+      "version": "0.2.143",
+      "sourceSha256": "6ff1ba280b9a4de6a3082d635aa3cc9aef2865b48ef0b243e7cf33d8b3de4c59",
+      "tarball": "dist/0.2.143/sumrian-swarm-0.2.143.tgz",
+      "sha256": "bacc7990ca548be7fe4fa100f53518f9c7ff743abb5df369ef4377856c783508",
+      "integrity": "sha512-wzqswEvmdSRJXymxVN56pmsRNXslCr0JXNiXb5Q09m8V0MgswKEEmm4dD+FjHJ4U2ReiBN+1b3TzD1FkolzgVA==",
+      "fileCount": 17,
+      "bytes": 26385976
+    },
+    {
+      "version": "0.2.144",
+      "sourceSha256": "8485161024d2642a285b18a419ff9226fea97a7a688bfd0250cd5de767ee051e",
+      "tarball": "dist/0.2.144/sumrian-swarm-0.2.144.tgz",
+      "sha256": "af6253420cd44aa401087dc9de97b02c91cd00dc575e00cadbebcd3425fa233b",
+      "integrity": "sha512-cNYRpt9T9Hvll3aJzH12+c2cEbWfIYO7bd8+SfjOG2kXiDhZCVo1Mgco+THoEYMEdVsmz0cxHh0LnNiN+UX5ew==",
+      "fileCount": 17,
+      "bytes": 26388042
+    },
+    {
+      "version": "0.2.145",
+      "sourceSha256": "6c2bda9b7cb1592aecca6bcfbec4b3afa11ed3d0b56f70c04ad4317c3d5d1088",
+      "tarball": "dist/0.2.145/sumrian-swarm-0.2.145.tgz",
+      "sha256": "54361cab3378e78f54784c7345d535c904d2e58a6cfad9264353ad70980cb72e",
+      "integrity": "sha512-x0HqP90IzpZxn75jFQE6z05XXP0Ic6dejcnz+/NugHOU1yRZYFg2GTEdy6tJNRcV1te1TyQcsNO6mMYZqj3Stw==",
+      "fileCount": 17,
+      "bytes": 26405591
+    },
+    {
+      "version": "0.2.146",
+      "sourceSha256": "eb36d3fd83244aee59afa2512e086538297f92ae63788622ab1dc357e2a88a12",
+      "tarball": "dist/0.2.146/sumrian-swarm-0.2.146.tgz",
+      "sha256": "31de2a410aef5cd83deab03991fe30fc9769566e22c3a93a414e035a6d06d17b",
+      "integrity": "sha512-8YNGxXjgxMMrYbuE/zsXihENrhjbcUmEqqqjb/iUCBJY6kxs3Cpg1cb73wW26iUmgSZs/5I9+9S0xKe7O8Z1Kw==",
+      "fileCount": 17,
+      "bytes": 26440810
+    },
+    {
+      "version": "0.2.147",
+      "sourceSha256": "bb2efd17b593b3b41cb9bb57bdb9a95545554f11bd2296156bd5a85c2cb1c20b",
+      "tarball": "dist/0.2.147/sumrian-swarm-0.2.147.tgz",
+      "sha256": "dcb2422edb71d220041c07ffe3f68f131f24000400879080dfc7b3b4b2a8e424",
+      "integrity": "sha512-br0R7JFMprJ5ppV3XzuVBueKidWEnnY0oYs3XLkT48GoIKNPDlwoljDEWV73fZy9gE5YiCLpAyXbwTPJWHv8rg==",
+      "fileCount": 17,
+      "bytes": 26449656
+    },
+    {
+      "version": "0.2.148",
+      "sourceSha256": "64f4715cb91bbb8cb6a1b800a68bf19684ce80ad758423763577163ec85c41f2",
+      "tarball": "dist/0.2.148/sumrian-swarm-0.2.148.tgz",
+      "sha256": "4ce656900d9f40d4606d171a98918f57e818b449d8e88f6f234026c3e48e3936",
+      "integrity": "sha512-y+GPzaJA4FRvaXtJ+TFWa88OYc7qVve/iQ/CWroRxs4OUPQnjZsIxU2M2LWQa05WTMDz3SHUzArcncTn9eKTBg==",
+      "fileCount": 17,
+      "bytes": 26487231
+    },
+    {
+      "version": "0.2.149",
+      "sourceSha256": "7fa9ce7976639327d29c6d8d839ffc37557f75d599ea34c01082b662a6a7bb4e",
+      "tarball": "dist/0.2.149/sumrian-swarm-0.2.149.tgz",
+      "sha256": "c658689c18b669c997ff594eef0de592549fd924f7e311f18295ac19d621c160",
+      "integrity": "sha512-R/BNHbkBwqh8wM05XL732rAky2FzlGZwdKpSs9ZOLJ4XT1ixg9/QDloOfP8aSeSIAe2GtOXK3aWwtgtD1iClYQ==",
+      "fileCount": 17,
+      "bytes": 26487257
+    },
+    {
+      "version": "0.2.150",
+      "sourceSha256": "589adc51e27f169b57c368a46afc10559262021d1e4851958c72325ff87745f0",
+      "tarball": "dist/0.2.150/sumrian-swarm-0.2.150.tgz",
+      "sha256": "a1cc6a50346caec3766cea8a94a47fad582d270e3dc8c347125eae4e0876e198",
+      "integrity": "sha512-2+alnAlC52lCKH3ArnFyl9FMJZWca9NLJ3yKgdEmosWx48hYLmAu4oh90+ybQU4ZgVKSKu1ko6Je5w72j+/dtw==",
+      "fileCount": 17,
+      "bytes": 26489258
+    },
+    {
+      "version": "0.2.151",
+      "sourceSha256": "0497b9ec0ee10fbb16a5cf6adc572d26089599b3ee9c6c3db4ee96bda1fd778d",
+      "tarball": "dist/0.2.151/sumrian-swarm-0.2.151.tgz",
+      "sha256": "f445c3ba34a6a49230945f41df54a195b6664538d43080ad72eb7686c621563d",
+      "integrity": "sha512-ehOC0b6BtXiUb1Yi7V4xzIx343I5RdLRnXteNNI3sgHCi5XFz+iBftkIG+yK4DGf7LDyO+XAo0rwsSvaT+W6bQ==",
+      "fileCount": 18,
+      "bytes": 26618478
+    },
+    {
+      "version": "0.2.152",
+      "sourceSha256": "a9013857bccacaab0863113c7aecede47e92c35aef9550fe0d33efbbd1f8786a",
+      "tarball": "dist/0.2.152/sumrian-swarm-0.2.152.tgz",
+      "sha256": "306b1c1caf9b9b1e072ab454c8fe2f7a15226b54c34ee059dcb9154ac5599d81",
+      "integrity": "sha512-70JaGGrSZzcqhK5e0+/Lv2N8Zcxn9O09EuO3hHi2dphu3pSBBnAa1NYZUISoV+hqsSQgCJ++eUcj3Jvmui2G6w==",
+      "fileCount": 18,
+      "bytes": 26621246
+    },
+    {
+      "version": "0.2.153",
+      "sourceSha256": "9647830c014f87afd050c0e4ffbb1c1138b5e13713832763d45401f049580e3c",
+      "tarball": "dist/0.2.153/sumrian-swarm-0.2.153.tgz",
+      "sha256": "ae1ab02ca3c3696541afd9e7f3e1df4e0b2e9c94beafca987ca5f8e755752ac8",
+      "integrity": "sha512-CSDhOJ3pZqICVuqlswq6xBI6cVrK1HMCB7dZ69vRyS3FAQ+Py9L5YmkatxNlto3k+DX031UM7t40I9u0deRz6g==",
+      "fileCount": 18,
+      "bytes": 26627255
+    },
+    {
+      "version": "0.2.154",
+      "sourceSha256": "b80a4b174786b7456e5fb6868bf989c758b655247c5ecd330693f2da45756a16",
+      "tarball": "dist/0.2.154/sumrian-swarm-0.2.154.tgz",
+      "sha256": "118624de13729bb534234735149ac87e33e4d3a6830fa3826ed80a2642c43f79",
+      "integrity": "sha512-msWRnQ0R/xaKovIBEY+HhcBcw9baljSXRyeTDbg7r3yISHgIY3egLawjKSrFuw05yBKQTWmDSvNhVybCoxONiw==",
+      "fileCount": 18,
+      "bytes": 26851077
+    },
+    {
+      "version": "0.2.155",
+      "sourceSha256": "37351e06509dcceefb62a7c4113acc0a716a2b71abc004ff6039d26ee8762b24",
+      "tarball": "dist/0.2.155/sumrian-swarm-0.2.155.tgz",
+      "sha256": "2bf4eb6c5c83cf3073af0b2721dc212352fedfc912452f54d3b8df151c09243d",
+      "integrity": "sha512-84u5QexCIfNLuNtnBsT9MCmhaoYG6QSuF4E5gIiaJKGuarMMrxJgsj0xX4dUWprg2C6iidTwwht/O1whhaYaQA==",
+      "fileCount": 18,
+      "bytes": 26852131
+    },
+    {
+      "version": "0.2.156",
+      "sourceSha256": "c53974ac538a2ab063af34dc3072f7832bf9c0bf27c1505c0b68aa5c62d10b95",
+      "tarball": "dist/0.2.156/sumrian-swarm-0.2.156.tgz",
+      "sha256": "d584da2d1ec70cda78d2fb8eac2f42233dd435f3d1f385ae356d2f6b46d7ce06",
+      "integrity": "sha512-dyOA+pOenJ2jzvdahkXa3DrMRH3NdqibATshz68vo+gnvi3Sc0lXQpYtahdk4UD3ts8ecikv8Rib0LTBFIRZOw==",
+      "fileCount": 20,
+      "bytes": 27878692
+    },
+    {
+      "version": "0.2.157",
+      "sourceSha256": "1d9065c8e5472a3754889f9dbc68eadd4ed8d38e20876aab11eb6545a8dd924e",
+      "tarball": "dist/0.2.157/sumrian-swarm-0.2.157.tgz",
+      "sha256": "0f3347ffb653a35c84e9f2956b91d4ed81de1d1f41598404bc567b20a10fab17",
+      "integrity": "sha512-2mL8gH3lbXs4I+Xec9pJRAda5PQe2aQBEA6dQRm4/S85w5Lb9x46nSX4sJdbcGc1IiAwEEGMrd6zRs+vGgWk0g==",
+      "fileCount": 20,
+      "bytes": 27931687
+    },
+    {
+      "version": "0.2.158",
+      "sourceSha256": "5db6ae44add2809c94ada3fbf50110fd841c5b729593ad49d28eaf6cd529b9b1",
+      "tarball": "dist/0.2.158/sumrian-swarm-0.2.158.tgz",
+      "sha256": "9db1417e15141d2122c0572a5abe4f961d79c0c9514d71b9c7b090cb1ed859b2",
+      "integrity": "sha512-SeOoIv+PEPgClwJmEQR/TZlsQ8M9xcc9dC3xKHz3f1BllMBRn5ZwinmQ4JnCH+AC9xJ0oLhZhlLuC7Xj+ezEew==",
+      "fileCount": 20,
+      "bytes": 27975885
+    },
+    {
+      "version": "0.2.159",
+      "sourceSha256": "c43111c29a4dbd94a14b8194068b99a895c903c4db746b3385b6ba322a0e4816",
+      "tarball": "dist/0.2.159/sumrian-swarm-0.2.159.tgz",
+      "sha256": "ffefb4f7c369ee6d76f62f007ec46d7994e895a63f8259c58b31bb9a3aa96899",
+      "integrity": "sha512-qIQWb4rkWJDspyaQuXOA+WSGk+0UamR1S60p6wD6IHyqHoi5PJWO41Rq7a3WAEocIuyhrEaZ63ArNWn6rS3pfQ==",
+      "fileCount": 20,
+      "bytes": 28015606
+    },
+    {
+      "version": "0.2.160",
+      "sourceSha256": "3779b13fd03f531cb0c6e6f27cc3ff0d571722beffa237af552662791eee0a5f",
+      "tarball": "dist/0.2.160/sumrian-swarm-0.2.160.tgz",
+      "sha256": "dc2cc0533902d677672d746c25e67af4a959f287b013521976d12db9855bb783",
+      "integrity": "sha512-DFBJj7LYpMbZ/+KDjTPyZ3/DK8jPatA5gHvSk5tClArdpz0ecwj5Xz9DP1Lf9YsZe03jbmiyndcKTj3dh1HIcg==",
+      "fileCount": 20,
+      "bytes": 29715780
+    },
+    {
+      "version": "0.2.161",
+      "sourceSha256": "b8e8128cb16cb0adc4f2921689d3334b0dc32b548a9873fa0d2ecb2093185ae7",
+      "tarball": "dist/0.2.161/sumrian-swarm-0.2.161.tgz",
+      "sha256": "8ee76ad61d31e412710ba6e65fd01703df9d96dc2bb21f9a8edb71599d4aad2b",
+      "integrity": "sha512-i95KVFEFQmYUJVQdl47r/n3dO89eMS8MiJ/ZLiNSXEfjgfjlLTyhvcyKZaiZ/x2D3ESE6+HJnIr3k1jb+aTKvQ==",
+      "fileCount": 20,
+      "bytes": 29783169
+    },
+    {
+      "version": "0.2.162",
+      "sourceSha256": "9e748a7cfceaaa6645ef46c640c28545558d0f0efc29af5cd2c2dc505ef1541e",
+      "tarball": "dist/0.2.162/sumrian-swarm-0.2.162.tgz",
+      "sha256": "fa6e00fcbf303cce3781a0afbc0b5a5158bf826e94dbca002aad71ecb7506119",
+      "integrity": "sha512-KFCqCq00RAbj7ws6uJ3vYwuh7xB8+CpTT65BphPxZ1Jqja1KnYBcz8NCA5nnE8y8ZRXsCXgrR2arNLt89G0u6g==",
+      "fileCount": 20,
+      "bytes": 29810060
+    },
+    {
+      "version": "0.2.163",
+      "sourceSha256": "bb39d0eb1359e05bfb0fc286cc5c57ba59a72817317ecece59e47d5919acfa3e",
+      "tarball": "dist/0.2.163/sumrian-swarm-0.2.163.tgz",
+      "sha256": "a61624b796f07b61173ffa6e3759d9e01eb064ff26614ff3546f6a6507bdeeda",
+      "integrity": "sha512-ilN2xfzsjx10CbTeSDgR7EsWcNVL16IBhdPYFlADbm1BTyJyz7AC6gVM2xQRwf159wOPs3h+X6C/UcO/ag9tJw==",
+      "fileCount": 21,
+      "bytes": 30216725
+    },
+    {
+      "version": "0.2.152-sy.1",
+      "sourceSha256": "33be63796a7e61e6b560d36645399bc4944b7909c0aaf665a85996617e41b696",
+      "tarball": "dist/0.2.152-sy.1/sumrian-swarm-0.2.152-sy.1.tgz",
+      "sha256": "e9950fe48716aed50773886a48746b83d1b93edc2b464b0dbf85f2202b5616dc",
+      "integrity": "sha512-Fa8UReV6BA4oUCEPfWkoLu754Ub/jJ7j8Qgpz8RYSkolZd2jQh64gI0kgly33u7KxBDQ5BHXm4GW8JIqOVlK8w==",
+      "fileCount": 19,
+      "bytes": 4508007
+    }
+  ]
+}

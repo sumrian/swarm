@@ -1,0 +1,9 @@
+/build/
+/dist/
+/cache/
+/verification/
+__pycache__/
+.DS_Store
+node_modules/
+.npmrc
+*.log
