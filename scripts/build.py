@@ -11,6 +11,7 @@ import shutil
 import subprocess
 import tarfile
 import urllib.request
+import urllib.error
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = json.loads((ROOT / 'releases/sources.json').read_text())
@@ -43,8 +44,18 @@ def source_archive(item, archive_root):
         if local and local.is_file():
             shutil.copyfile(local, temporary)
         else:
-            with urllib.request.urlopen(item['sourceUrl'], timeout=120) as response:
-                temporary.write_bytes(response.read())
+            urls = [item['sourceUrl']]
+            backup = f"https://github.com/sumrian/swarm/releases/download/v{item['version']}/source-{item['sourceName']}-{item['sourceVersion']}.tgz"
+            if backup not in urls:
+                urls.append(backup)
+            for index, url in enumerate(urls):
+                try:
+                    with urllib.request.urlopen(url, timeout=120) as response:
+                        temporary.write_bytes(response.read())
+                    break
+                except urllib.error.URLError:
+                    if index == len(urls) - 1:
+                        raise
         if digest(temporary) != item['sourceSha256']:
             temporary.unlink()
             raise ValueError(f"Source digest mismatch: {item['version']}")
