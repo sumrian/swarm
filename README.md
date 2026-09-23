@@ -4,7 +4,7 @@
 
 ## 使用
 
-默认发布目标：`latest` → **0.2.150**。建议始终固定具体版本：
+默认发布版本：`latest` → **0.2.150**。建议始终固定具体版本：
 
 ```bash
 AUTOWONDER_AUTO_UPDATE=false npx -y @sumrian/swarm@0.2.150 connect \
@@ -25,7 +25,7 @@ npx -y @sumrian/swarm@0.2.150 help
 
 `-sy.N` 表示同一上游基底的第 N 次定制发布，在 SemVer 中属于预发布版本。标签可移动；只有完整版本号用于精确选择。每个版本有对应 Git 标签 `v<版本>` 和 GitHub Release。
 
-[来源版本清单](releases/sources.json) 保存每个源包的 URL、SHA-256 和上游版本。本文列的是准备发布的版本集合，实际远端发布状态以 npm 版本列表和 GitHub Releases 为准。
+[来源版本清单](releases/sources.json) 保存每个源包的 URL、SHA-256 和上游版本。上述 27 个版本已发布至 [npm](https://www.npmjs.com/package/@sumrian/swarm) 和 [GitHub Releases](https://github.com/sumrian/swarm/releases)。[发布校验记录](releases/published.json) 保存 npm 下载哈希、GitHub 附件哈希核对结果及默认安装验证；当前标签为 `latest=0.2.150`、`archive=0.2.163`、`custom=0.2.152-sy.1`。
 
 ## 与上游的差异
 

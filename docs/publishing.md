@@ -43,4 +43,13 @@ npm 接受发布后，脚本在本地 verification/ 保存 submitted 记录。�
 
 0.2.152-sy.1 使用 `--prerelease`。其他历史发布使用 `--latest=false`，只有 v0.2.150 作为选定默认版本。GitHub latest 与 npm latest 分别管理。
 
+## 最终核对
+
+```bash
+python3 scripts/verify-npm.py
+python3 scripts/verify-github.py
+```
+
+前者核对历史版本清单、registry integrity、此前下载验证记录和三个 npm 标签；后者核对全部 Release 附件的服务端 SHA-256 与本地文件，并确认 GitHub latest 为 v0.2.150。新增版本时同步维护预期标签。
+
 正式使用安装后的包之前，固定版本并关闭上游自动更新；不要与原 AutoWonder 共用运行进程。已安装实例、业务任务及服务端版本迁移不由本发布流程自动操作。
