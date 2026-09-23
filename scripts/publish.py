@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import time
 import urllib.error
 import urllib.request
 
@@ -32,8 +33,16 @@ def publish(version):
     remote = remote_version(version)
     if remote is None:
         subprocess.run(['npm', 'publish', str(tgz), '--access=public', '--tag=' + item['defaultTag'], '--registry=' + REGISTRY, '--ignore-scripts'], check=True)
-        remote = remote_version(version)
-    assert remote and remote['dist']['integrity'] == release['integrity'], 'Remote version differs; do not overwrite'
+        # npm may accept a publish before the registry exposes its metadata.
+        for attempt in range(60):
+            remote = remote_version(version)
+            if remote is not None:
+                break
+            if attempt % 6 == 0:
+                print(f'{version}: npm accepted publication; waiting for registry availability', flush=True)
+            time.sleep(10)
+    assert remote is not None, 'npm accepted publication but metadata is still unavailable; check before retrying'
+    assert remote['dist']['integrity'] == release['integrity'], 'Remote version differs; do not overwrite'
     with urllib.request.urlopen(remote['dist']['tarball'], timeout=120) as response:
         data = response.read()
     assert hashlib.sha256(data).hexdigest() == release['sha256'], 'Remote tarball differs'
