@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Attach the verified release and original source bytes to a GitHub release."""
 import argparse
+import fcntl
 import hashlib
 import json
 from pathlib import Path
@@ -44,9 +45,23 @@ Swarm SHA-256: `{result['sha256']}`.
 
 Default npm latest is deliberately 0.2.150. This release is not an official Alibaba Cloud release.
 ''')
-    exists = subprocess.run(['gh', 'release', 'view', tag, '--repo', REPO], capture_output=True)
-    if exists.returncode == 0:
-        raise RuntimeError(f'{tag} already exists; verify assets before changing an existing release')
+    existing = json.loads(subprocess.check_output(['gh', 'api', f'repos/{REPO}/releases?per_page=100'], text=True))
+    current = next((r for r in existing if r['tag_name'] == tag), None)
+    if current:
+        remote_assets = {a['name']: a for a in current['assets']}
+        local_assets = {p.name: p for p in assets.iterdir() if p.is_file()}
+        assert set(remote_assets) <= set(local_assets), 'Unexpected remote assets; manual review required'
+        for name, asset in remote_assets.items():
+            expected = 'sha256:' + hashlib.sha256(local_assets[name].read_bytes()).hexdigest()
+            assert asset['state'] == 'uploaded' and asset.get('digest') == expected, f'Existing asset differs: {tag}/{name}'
+        missing = [str(p) for name, p in local_assets.items() if name not in remote_assets]
+        if missing:
+            assert current['draft'], 'Published release is incomplete; manual review required'
+            subprocess.run(['gh', 'release', 'upload', tag, '--repo', REPO] + missing, check=True)
+        if current['draft']:
+            subprocess.run(['gh', 'release', 'edit', tag, '--repo', REPO, '--draft=false', '--latest=true' if version == '0.2.150' else '--latest=false'], check=True)
+        print(f'{version}: existing GitHub release assets verified', flush=True)
+        return
     cmd = ['gh', 'release', 'create', tag, '--repo', REPO, '--verify-tag', '--title', 'Swarm ' + version, '--notes-file', str(notes), '--latest=true' if version == '0.2.150' else '--latest=false']
     if '-sy.' in version:
         cmd.append('--prerelease')
@@ -60,4 +75,7 @@ if __name__ == '__main__':
     parser.add_argument('versions', nargs='+')
     args = parser.parse_args()
     for version in args.versions:
-        release(version)
+        lock = ROOT / 'dist' / version / '.github-release.lock'
+        with lock.open('w') as handle:
+            fcntl.flock(handle, fcntl.LOCK_EX)
+            release(version)
