@@ -19,6 +19,8 @@
 
 ```bash
 python3 scripts/publish.py 0.2.150
+# 多个版本先提交，再逐一下载验证，减少等待 registry 处理时认证过期的次数：
+python3 scripts/publish.py --batch 0.2.151 0.2.152
 ```
 
 脚本要求 npm 当前身份为 sumrian；固定写入 public registry；已存在同名版本时核对 registry integrity，发现不一致立即停止。需要 OTP 时由 npm 交互流程处理，不记录凭证。
@@ -26,6 +28,8 @@ python3 scripts/publish.py 0.2.150
 发布标签由清单指定：仅 0.2.150 使用 latest；其他官方派生版本使用 archive；-sy.N 使用 custom。发布不可覆盖，发现内容错误必须另发新版本，不复用旧版本号。
 
 发布后重新下载 registry tarball，与本地 SHA-256 对比。仅 npm publish 退出成功不算最终验收。
+
+npm 接受发布后，脚本在本地 verification/ 保存 submitted 记录。中断后重跑会等待该版本可读，避免重复提交；最终以 published 记录中的下载校验结果为准。这些本地状态文件不进入 Git。
 
 ## GitHub Releases
 

@@ -24,15 +24,23 @@ def remote_version(version):
         raise
 
 
-def publish(version):
+def publish(version, defer_verification=False):
     item = next(i for i in CATALOG['versions'] if i['version'] == version)
     release = json.loads((ROOT / 'dist' / version / 'release.json').read_text())
     verification = json.loads((ROOT / 'verification' / f'{version}.json').read_text())
     tgz = ROOT / release['tarball']
     assert hashlib.sha256(tgz.read_bytes()).hexdigest() == verification['tarballSha256'] == release['sha256']
     remote = remote_version(version)
-    if remote is None:
+    submitted = ROOT / 'verification' / f'{version}-submitted.json'
+    if submitted.exists():
+        assert json.loads(submitted.read_text())['sha256'] == release['sha256']
+    if remote is None and not submitted.exists():
         subprocess.run(['npm', 'publish', str(tgz), '--access=public', '--tag=' + item['defaultTag'], '--registry=' + REGISTRY, '--ignore-scripts'], check=True)
+        submitted.write_text(json.dumps({'version': version, 'sha256': release['sha256'], 'accepted': True}) + '\n')
+    if remote is None:
+        if defer_verification:
+            print(f'{version}: accepted; final download verification pending', flush=True)
+            return
         # npm may accept a publish before the registry exposes its metadata.
         for attempt in range(60):
             remote = remote_version(version)
@@ -55,8 +63,12 @@ def publish(version):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('versions', nargs='+')
+    parser.add_argument('--batch', action='store_true', help='Submit versions first, then verify every remote tarball')
     args = parser.parse_args()
     identity = subprocess.check_output(['npm', 'whoami', '--registry=' + REGISTRY], text=True).strip()
     assert identity == 'sumrian', f'Expected npm user sumrian, got {identity}'
     for version in args.versions:
-        publish(version)
+        publish(version, defer_verification=args.batch)
+    if args.batch:
+        for version in args.versions:
+            publish(version)
